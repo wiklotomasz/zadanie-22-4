@@ -71,6 +71,7 @@ export class PostDetailPage extends React.Component {
     </div>
   );
 }
+}
 
 // Actions required to provide data for this component to render in server side.
 PostDetailPage.need = [params => {
